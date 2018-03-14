@@ -1,3 +1,5 @@
+// Watch itoa() and atoi() for the test!!
+
 #include <stdio.h>
 
 int atoi(char* number);
