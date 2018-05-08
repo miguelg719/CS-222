@@ -37,6 +37,6 @@ void addBack( node** headPointer, node** tailPointer, int value )
 	box->next = NULL;	
 	*tailPointer = box;
 	
-	if( box->next == NULL )
+	if( box->previous == NULL )
 		*headPointer = box;
 }
